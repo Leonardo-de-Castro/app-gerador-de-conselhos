@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Hanken+Grotesk:wght@800&display=swap');
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Fira Code', monospace;
+    font-weight: 800;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.advice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    margin: 20px;
+    width: 600px;
+    
+}
+.advice .advice-id{
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.advice .advice-description{
+    font-size: 26px;
+    padding: 24px;
+    text-align: center;
+    color:  hsl(193, 38%, 86%);
+}
+
+.advice .advice-update{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    transform: translateY(50%);
+}
+
+.advice .advice-update:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
+
+
